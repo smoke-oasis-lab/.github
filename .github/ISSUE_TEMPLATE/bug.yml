@@ -1,0 +1,40 @@
+name: Bug report
+description: Report unexpected or incorrect behavior
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: "If possible, include the project and version or a link to where you noticed the issue. Do not include secrets or personal data."
+  - type: textarea
+    id: bug_observed
+    attributes:
+      label: What happened?
+      description: What did you see or receive?
+      placeholder: Describe what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: bug_steps
+    attributes:
+      label: How can it be reproduced?
+      description: What steps led to this result?
+      placeholder: Add the steps if you know them.
+    validations:
+      required: true
+  - type: textarea
+    id: bug_expected
+    attributes:
+      label: What did you expect to happen?
+      description: What result did you expect instead?
+      placeholder: Describe the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: bug_context
+    attributes:
+      label: Additional context
+      description: Links, version, environment, or a screenshot, if useful.
+      placeholder: Optional.
+    validations:
+      required: false

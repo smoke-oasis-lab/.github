@@ -1,0 +1,32 @@
+name: Task
+description: Plan a concrete task with a clear outcome
+labels:
+  - task
+body:
+  - type: markdown
+    attributes:
+      value: "For product work, open an issue in the relevant product repository. For general community work, open an issue in [smoke-oasis-lab/.github](https://github.com/smoke-oasis-lab/.github)."
+  - type: textarea
+    id: task_description
+    attributes:
+      label: What should be done?
+      description: What result do we need?
+      placeholder: Describe the task.
+    validations:
+      required: true
+  - type: textarea
+    id: task_reason
+    attributes:
+      label: Why is it useful?
+      description: Who will this help, and how?
+      placeholder: Briefly explain why this task matters.
+    validations:
+      required: true
+  - type: textarea
+    id: task_done
+    attributes:
+      label: How will we know it is done?
+      description: What can someone check to confirm the result?
+      placeholder: For example, the instructions are published and a new participant can follow them without extra help.
+    validations:
+      required: true

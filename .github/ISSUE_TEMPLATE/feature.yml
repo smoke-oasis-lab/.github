@@ -1,0 +1,29 @@
+name: Improvement idea
+description: Suggest a new behavior or improvement to a project
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: feature_proposal
+    attributes:
+      label: What is your proposal?
+      description: What would you like to change or add?
+      placeholder: Describe your idea.
+    validations:
+      required: true
+  - type: textarea
+    id: feature_benefit
+    attributes:
+      label: Why would it be useful?
+      description: What problem would this solve, and for whom?
+      placeholder: Tell us who this would help.
+    validations:
+      required: true
+  - type: textarea
+    id: feature_result
+    attributes:
+      label: What result do you expect?
+      description: What would a useful result look like?
+      placeholder: Describe what a user could do or see.
+    validations:
+      required: true
