@@ -1,7 +1,6 @@
 name: Improvement idea
 description: Suggest a new behavior or improvement to a project
-labels:
-  - enhancement
+type: Feature
 body:
   - type: textarea
     id: feature_proposal

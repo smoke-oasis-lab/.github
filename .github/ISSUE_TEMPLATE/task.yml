@@ -1,7 +1,6 @@
 name: Task
 description: Plan a concrete task with a clear outcome
-labels:
-  - task
+type: Task
 body:
   - type: markdown
     attributes:
